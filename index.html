@@ -27,6 +27,36 @@
   text-align: center;
 }
 
+  #vehicles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: start;
+}
+
+.vehicle-heading {
+  grid-column: 1 / -1;
+}
+
+.vehicle-card {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.vehicle-card img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  #vehicles {
+    grid-template-columns: 1fr;
+  }
+}
 .vehicle-card img {
   width: 100%;
   max-width: 650px;
