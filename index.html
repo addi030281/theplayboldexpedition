@@ -285,6 +285,322 @@ THE PLAYBOLD EXPEDITION 2027<br>
 © 2027 The PlayBold Expedition. All Rights Reserved.
 </footer>
 
+‎
++45
+-1
+Lines changed: 45 additions & 1 deletion
+Original file line number	Diff line number	Diff line change
+@@ -1,268 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The PlayBold Expedition 2027</title>
+<meta name="description" content="They say cricket is a game. For us, it's a journey. We are driving it. The PlayBold Expedition 2027.">
+<style>
+  #vehicles {
+  width: 100%;
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+  background: #111111;
+  border: 1px solid #b71c1c;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 8px 25px rgba(183, 28, 28, 0.18);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+.vehicle-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.vehicle-card {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+  #vehicles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  align-items: start;
+}
+
+.vehicle-heading {
+  grid-column: 1 / -1;
+}
+
+.vehicle-card {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.vehicle-card img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+.vehicle-card h3 {
+  color: #ff3030;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.vehicle-card p {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}.vehicle-card h3 {
+  color: #ff3030;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.vehicle-card p {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}}
+@media (max-width: 768px) {
+  #vehicles {
+    grid-template-columns: 1fr;
+  }
+}
+.vehicle-card img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  object-fit: contain;
+.vehicle-card h3 {
+  color: #ff3030;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.vehicle-card p {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#080808;color:white}
+nav{position:absolute;top:0;width:100%;z-index:5;display:flex;justify-content:space-between;align-items:center;padding:22px 6%;background:#08080899}
+.logo{width:75px;height:65px;object-fit:contain}
+nav a{color:white;text-decoration:none;margin-left:22px;font-size:12px;font-weight:bold;letter-spacing:1px}
+.hero{height:100vh;min-height:600px;position:relative;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden}
+.hero video{position:absolute;width:100%;height:100%;object-fit:cover;inset:0}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#000b,#0005),linear-gradient(0deg,#080808,#0002 70%)}
+.hero-content{position:relative;z-index:2;padding:25px;max-width:950px}
+.hero-logo{width:145px;height:110px;object-fit:contain;margin-bottom:15px}
+.tag{color:#ffbd00;letter-spacing:5px;font-size:13px;font-weight:bold}
+h1{font-size:clamp(43px,8vw,90px);line-height:1.05;margin:22px 0;font-weight:900}
+h1 span{color:#ffbd00}
+.hero p{font-size:17px;color:#eee;letter-spacing:1px}
+.btn{display:inline-block;margin-top:30px;background:#e50914;color:white;padding:16px 28px;text-decoration:none;font-weight:bold;letter-spacing:2px}
+section{padding:85px 8%;text-align:center}
+h2{font-size:clamp(30px,5vw,48px);margin-bottom:22px}
+h2 span{color:#ffbd00}
+.intro{background:#111}
+.intro p,.story p{max-width:800px;margin:15px auto;color:#bbb;line-height:1.9;font-size:16px}
+.gold{color:#ffbd00;font-weight:bold;letter-spacing:3px;font-size:12px}
+.cars{background:#080808}
+.cars img{width:100%;max-width:1100px;border-radius:8px;margin-top:25px}
+.story{background:#111}
+.story-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:35px}
+.story-card{background:#1b1b1b;border-bottom:3px solid #e50914;padding:30px 20px}
+.story-card h3{color:#ffbd00;margin-bottom:12px}
+.story-card p{font-size:14px;color:#bbb;line-height:1.7}
+.crew{background:#090909}
+.sponsor{background:linear-gradient(135deg,#180000,#111)}
+.sponsor p{color:#bbb;line-height:1.8;max-width:700px;margin:auto}
+.contact{background:#111}
+footer{padding:28px;text-align:center;background:#050505;color:#777;font-size:12px;line-height:2}
+footer span{color:#ffbd00}
+@media(max-width:650px){
+nav{padding:14px 4%}
+nav a{margin-left:10px;font-size:10px}
+.logo{width:55px;height:50px}
+.hero{min-height:650px}
+section{padding:65px 6%}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<img class="logo" src="file_00000000cd248211bdb299b2bfe33141.png" alt="PlayBold Logo">
+<div>
+<a href="#home">HOME</a>
+<a href="#journey">JOURNEY</a>
+<a href="#crew">CREW</a>
+<a href="#contact">CONTACT</a>
+</div>
+</nav>
+
+<header class="hero" id="home">
+<video autoplay muted loop playsinline poster="1000361983.avif">
+<source src="1000361992.webm" type="video/webm">
+</video>
+<div class="hero-content">
+<img class="hero-logo" src="file_00000000cd248211bdb299b2bfe33141.png" alt="The PlayBold Expedition">
+<div class="tag">THE ROAD TO IPL 2027</div>
+<h1>THE PLAYBOLD<br><span>EXPEDITION 2027</span></h1>
+<p>They say cricket is a game. For us, it's a journey.</p>
+<p><strong>WE ARE DRIVING IT.</strong></p>
+<a class="btn" href="#journey">EXPLORE THE EXPEDITION</a>
+</div>
+</header>
+
+<section class="intro">
+<div class="gold">ONE TEAM. THREE CARS. ONE BIG JOURNEY.</div>
+<h2>WE DON'T JUST <span>WATCH CRICKET.</span></h2>
+<p>We live it. We breathe it. We drive it.</p>
+<p>The PlayBold Expedition 2027 is an extraordinary road journey following Royal Challengers Bengaluru across India during IPL 2027. Three cars, one passionate crew and countless stories waiting to be discovered.</p>
+</section>
+
+<section class="cars">
+<div class="gold">THREE CARS. ONE MISSION.</div>
+<h2>THE <span>EXPEDITION FLEET</span></h2>
+<img src="1000361983.avif" alt="Three expedition vehicles">
+<p style="color:#aaa;margin-top:20px">Our journey across India, one destination at a time.</p>
+</section>
+
+<section class="story" id="journey">
+<div class="gold">MORE THAN A ROAD TRIP</div>
+<h2>THIS IS OUR <span>JOURNEY</span></h2>
+<p>Following RCB's IPL 2027 journey, exploring India's highways, cities, cultures, food and unforgettable cricket moments.</p>
+<div class="story-grid">
+<div class="story-card">
+<h3>THE CRICKET</h3>
+<p>Following RCB across the country, celebrating every match and every moment.</p>
+</div>
+<div class="story-card">
+<h3>THE ROADS</h3>
+<p>Epic drives, highways, landscapes and unforgettable road-trip experiences.</p>
+</div>
+<div class="story-card">
+<h3>THE CULTURE</h3>
+<p>Discovering local food, people, traditions and stories from every destination.</p>
+</div>
+<div class="story-card">
+<h3>THE CONTENT</h3>
+<p>Creating cinematic videos, reels, photographs and exclusive expedition stories.</p>
+</div>
+</div>
+</section>
+
+<section id="expedition-route" style="background:#090909;padding:85px 6%;text-align:center;">
+  <div style="color:#ffbd00;font-size:13px;letter-spacing:4px;font-weight:bold;">ACROSS INDIA. ONE CRICKET JOURNEY.</div>
+
+  <h2 style="font-size:clamp(32px,5vw,52px);margin:22px 0;">THE <span style="color:#ffbd00;">EXPEDITION ROUTE</span></h2>
+
+  <p style="max-width:750px;margin:0 auto 35px;color:#bbb;line-height:1.9;">
+    Three cars. Multiple cities. Thousands of kilometres.
+    Following the passion of Royal Challengers Bengaluru across India.
+  </p>
+
+  <div style="background:#171717;border:1px solid #383838;border-radius:12px;padding:30px 15px;max-width:850px;margin:auto;">
+    <div style="color:#ffbd00;font-size:13px;letter-spacing:3px;margin-bottom:25px;">OUR PROPOSED ROAD JOURNEY</div>
+
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:12px;">
+      <span style="background:#a90012;padding:13px 19px;border-radius:6px;font-weight:bold;">BENGALURU</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">GUWAHATI</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">MUMBAI</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#a90012;padding:13px 19px;border-radius:6px;">BENGALURU</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">DELHI</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">AHMEDABAD</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">LUCKNOW</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">RAIPUR</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">DHARAMSHALA</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">HYDERABAD</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#252525;padding:13px 19px;border-radius:6px;">DHARAMSHALA</span>
+      <span style="color:#ffbd00;">→</span>
+      <span style="background:#a90012;padding:13px 19px;border-radius:6px;">AHMEDABAD</span>
+    </div>
+
+    <p style="color:#ffbd00;margin-top:30px;font-weight:bold;letter-spacing:2px;">#DRIVEBOLD &nbsp; #PLAYBOLD</p>
+  </div>
+
+  <p style="font-size:12px;color:#777;margin-top:20px;">Proposed route concept. Final destinations and sequence subject to the official IPL 2027 fixtures.</p>
+</section>
+
+<section class="crew" id="crew">
+<div class="gold">THE PEOPLE BEHIND THE JOURNEY</div>
+<h2>MEET THE <span>CREW</span></h2>
+<p style="color:#bbb;line-height:1.8">Creators, presenters, photographers, cinematographers and storytellers united by one passion.</p>
+<p style="color:#ffbd00;margin-top:20px;font-weight:bold">#DriveBold &nbsp; #PlayBold</p>
+</section>
+
+<section class="sponsor">
+<div class="gold">LET'S DRIVE TOGETHER</div>
+<h2>PARTNER WITH <span>US</span></h2>
+<p>Join The PlayBold Expedition 2027 as a brand partner. Be part of an extraordinary nationwide cricket and travel experience connecting millions of passionate fans.</p>
+<a class="btn" href="mailto:info@theplayboldexpedition.com">BECOME A PARTNER</a>
+</section>
+
+<section class="contact" id="contact">
+<div class="gold">THE JOURNEY STARTS HERE</div>
+<h2>STAY <span>CONNECTED</span></h2>
+<p style="color:#bbb">Follow our journey. Experience every road. Live every moment.</p>
+<a class="btn" href="https://www.instagram.com/" target="_blank">FOLLOW THE EXPEDITION</a>
+</section>
+
+<footer>
+THE PLAYBOLD EXPEDITION 2027<br>
+<span>THE ROAD IS OUR PLAYGROUND.</span><br>
+#DriveBold #PlayBold<br>
+© 2027 The PlayBold Expedition. All Rights Reserved.
+</footer>
+
+</body>
+</html>
+<section id="vehicles">
+ <div class="vehicle-heading">
+  <h2>THREE MACHINES. ONE MISSION.</h2>
+  <p>MEET THE PLAYBOLD EXPEDITION FLEET</p>
+ </div> <div class="vehicle-card">
+  <h3>01. BOUNCER</h3>
+   <img src="bouncer-thar-roxx.webp" alt="BOUNCER - Mahindra Thar ROXX">
+  <p>MAHINDRA THAR ROXX</p>
+ </div><div class="vehicle-card">
+  <h3>02. GOOGLY</h3>
+   <img src="googly-scorpio-n.webp" alt="GOOGLY - Mahindra Scorpio-N">
+  <p>MAHINDRA SCORPIO-N</p>
+ </div><div class="vehicle-card">
+  <h3>03. YORKER</h3>
+   <img src="yorker-xuv700.webp" alt="YORKER - Mahindra XUV700">
+  <p>MAHINDRA XUV700</p>
+ </div>
+</section>
 </body>
 </html>
 
